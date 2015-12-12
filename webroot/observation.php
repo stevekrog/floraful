@@ -53,11 +53,6 @@
                 $observationsManager->delete($target);
                 header('Location: observation.php');
                 break;
-            case 'save_plant_obs_to_file':
-                $observationsManager = new ObservationsManager();
-                $observationsManager->savePlantObsToFile();
-                header('Location: observation.php');
-                break;
             case 'add_observation':
                 $obs = new plantObservation();
                 $_SESSION['obstype'] = PLANT;
@@ -91,8 +86,6 @@
 
                 $observationsManager = new ObservationsManager();
                 $observationsManager->save($obs);
-                // include('../views/obs_save_success_view.php');
-                // header('Location: ../views/obs_save_success_view.php');
                 header('Location: observation.php');
                 break;
             default:

@@ -50,7 +50,7 @@
                 break;
 
             default:
-                if($_SESSION["current_user"]){
+                if(isset($_SESSION["current_user"])){
                     include('home.php');
                     print "login: User: '$name' already logged in with email: $email";
                     break;

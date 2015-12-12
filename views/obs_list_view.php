@@ -1,3 +1,13 @@
+<?php
+
+    if(isset($_SESSION['current_user']))
+    {
+        $userrole = $_SESSION['current_user']->getrole();
+    }else{
+        $userrole = 0;
+    }
+?>
+
 <div class="container">
 <table class="table table-striped">
     <tr>
@@ -46,5 +56,7 @@
 </table>
 </div>
 <a href='observation.php?action=add_observation' class="btn btn-info" role="button">Add New Record</a>
-<a href='../views/create_csv_view.php?obstype=1' class="btn btn-info" role="button">Save Records to File</a>
+<?php if($userrole == ADMIN) { ?>
+        <a href='../views/create_csv_view.php?obstype=1' class="btn btn-info" role="button">Save Records to File</a>
+<?php } ?>
 <a href='../webroot/home.php' class="btn btn-info" role="button">Home</a>
