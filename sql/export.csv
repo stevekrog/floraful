@@ -1,0 +1,9 @@
+oid,observerName,email,observationDateTime,weatherDesc,currentTemp,highTemp,lowTemp,locationDesc,latitude,longitude,notes,plantName,soilDesc,obstypeid
+1,user,user@mymail.com,"2015-12-05 22:17:40","windy and cloudy",55.0,65.0,45.0,near,104.430000,-105.250579,"new note","Boston Fern","sandy with clay",1
+2,user,user@mymail.com,"0000-00-00 00:00:00","clear and sunny",45.0,54.0,34.0,"3 milles S of Ouray",-105.340000,40.650000,"saw a bear","dark bluebell","fine loam",1
+3,user,user@mymail.com,"2015-12-01 15:10:05",cloudy,55.0,65.0,45.0,near,104.430000,42.000000,note,rose,brown,1
+4,user,user@mymail.com,"0000-00-00 00:00:00","new weather",67.0,78.0,45.0,"new location",-105.670000,41.450000,"another note","tall pine","dark loam",1
+5,"maggie simpson",maggie@mymail.com,"2015-12-07 23:18:12","lightning and thunder",56.0,76.0,34.0,"near nederland",-105.650000,40.230000,"hello mudda","audrey II","sandy loam",1
+7,"Homer sampson",hs@mymail.com,"2015-12-08 22:01:30","sunny and nice",89.0,98.0,67.0,"near here",-105.600000,41.300000,"notey notes","piney pine",mud,1
+9,user,user@mymail.com,"2015-12-09 14:23:02","sunny and nice",54.0,43.0,45.0,"Near downtown",-105.430000,40.650000,"saw an eagle","green plant","brown dirt",1
+10,"Ned Flanders",flanders@mymail.com,"2015-12-09 15:36:28","severe drought",89.0,90.0,67.0,"a nice place to be",-105.650000,40.650000,none,"green grass","tan dirt",1
